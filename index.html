@@ -4,12 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Abu Dhabi Satisfaction Survey</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
 </head>
 
 <body>
+    <header>
+        <h1 id="title">Abu Dhabi Satisfaction Survey</h1>
+        <p id="description">Thank you for taking time to help us improve our services</p>
+    </header>
+    <!-- Form starts here -->
+    <div class="container">
+        <form id="survey-form" action="#">
+            <div class="survey">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+            </div>
+            <div class="survey">
+                <label id="email-label" for="email">Email</label>
+                <input type="text" text="email" name="email" id="email" class="form-control"
+                    placeholder="Enter your email" required="">
+            </div>
+            <div class="survey">
+                <label id="age-label" for="age">Age <span class="optional">(Optional)</span></label>
+                <input type="text" name="age" id="age" class="form-control" placeholder="Age">
+            </div>
+            <div class="survey">
 
+            </div>
+            <div class="survey">
+
+            </div>
+            <div class="survey">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Survey built by <a href="https://github.com/gitdxb"> Tam Tran</a></p>
+    </footer>
 </body>
 
 </html>
