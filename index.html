@@ -32,13 +32,58 @@
                 <input type="text" name="age" id="age" class="form-control" placeholder="Age">
             </div>
             <div class="survey">
-
+                <p>How many days did you spend in Abu Dhabi?</p>
+                <select id="dropdown" name="traveler-type" class="form-control" required="">
+                    <option disabled="" selected="" value="">Select number of days</option>
+                    <option value="lessThan24">Less than 24 hours</option>
+                    <option value="fewDays">1 - 3 days</option>
+                    <option value="fewWeeks">A few weeks</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
             <div class="survey">
-
+                <p>Would you recommend Abu Dhabi to your friends/family?</p>
+                <label>
+                    <input type="radio" class="input-radio" name="user-recommend" value="definitely"
+                        checked="">Definitely
+                </label>
+                <label>
+                    <input type="radio" class="input-radio" name="user-recommend" value="maybe">Maybe
+                </label>
+                <label>
+                    <input type="radio" class="input-radio" name="user-recommend" value="notsure">Not Sure
+                </label>
             </div>
             <div class="survey">
-                <button type="submit">Submit</button>
+                <p>What's your favourite things about Abu Dhabi?</p>
+                <select name="mostLike" id="most-like" class="form-control" required="">
+                    <option disable="" selected="" value="">Select an option</option>
+                    <option value="food">Food</option>
+                    <option value="culture">Culture</option>
+                    <option value="attractions">Attractions</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="survey">
+                <p>Rate your favourite attractions</p>
+                <label>
+                    <input type="checkbox" class="input-checkbox" name="prefer" value="favourite-checkbox">
+                    SZ Grand Mosque</label>
+                <label><input type="checkbox" class="input-checkbox" name="prefer" value="favourite-checkbox">Emirates
+                    Palace</label>
+                <label><input type="checkbox" class="input-checkbox" name="prefer" value="favourite-checkbox">Lourve Abu
+                    Dhabi</label>
+                <label><input type="checkbox" class="input-checkbox" name="prefer" value="favourite-checkbox">Heritage
+                    Village</label>
+            </div>
+            <div class="survey">
+                <p>Any comments or suggetions?</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="survey">
+                <button id="submit" type="submit">Submit</button>
             </div>
         </form>
     </div>
