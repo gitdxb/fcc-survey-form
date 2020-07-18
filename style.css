@@ -1,3 +1,21 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+header {
+    padding-top: 30px;
+    text-align: center;
+}
+header p {
+    font-style: italic;
+    font-weight: 200;
+}
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 2.5em 40px;
+    background-color: #f0f0f0;
+}
+footer p {
+    text-align: center;
+    font-style: italic;
+}
