@@ -1,6 +1,12 @@
-* {
-    font-family: 'Poppins', sans-serif;
+body {
+    background: #ffa848;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	margin: 0;
 }
+
 header {
     padding-top: 30px;
     text-align: center;
@@ -13,7 +19,68 @@ header p {
     width: 50%;
     margin: 20px auto;
     padding: 2.5em 40px;
-    background-color: #f0f0f0;
+    background: rgba(253, 253, 253, 0.4);
+    border-radius: 5px;
+}
+#survey-form {
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.survey {
+    margin: 0 auto 1.25rem auto;
+	padding: 0.25rem;
+}
+.form-control {
+    display: block;
+    height: 2rem;
+	width: 100%;
+	padding: 0.375rem auto;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.input-radio, .input-checkbox {
+	display: inline-block;
+	margin-right: 0.625rem;
+	min-height: 1.25rem;
+	min-width: 1.25rem;
+}
+.input-textarea {
+	min-height: 120px;
+	width: 100%;
+	padding: 0.375rem auto;
+	resize: vertical;
+}
+input, button, select, textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+span {
+	margin-left: 0.25rem;
+	font-size: 0.9rem;
+	color: #5e5b5b;
+}
+label {
+	display: flex;
+	align-items: center;
+	font-size: 1.125rem;
+	margin-bottom: 0.5rem;
+}
+button {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	color: inherit;
+	border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    background: orange;
 }
 footer p {
     text-align: center;
